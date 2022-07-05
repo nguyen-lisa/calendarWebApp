@@ -1,0 +1,99 @@
+
+body {
+background-color: rgb(202, 218, 225);
+align-items: center;
+right: 50%;
+padding: 10px;
+}
+
+#calendar {
+    padding: 2%;
+    background-color: rgb(222, 229, 246);
+    margin-top: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 5px;
+}
+
+h1 {
+    height: 30%;
+    width: 30%;
+    padding: 5px;
+    text-shadow: 2px 2px 2px grey;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(183, 133, 230);
+    font-style: oblique;
+    box-shadow: 0 0 7px;
+}
+
+table {
+    width: 70%;
+    padding: 5px;
+    background-color:rgb(220, 151, 194);
+    margin-top: 2%;
+    border-radius: 20px;
+    position: relative;
+}
+
+table, th, td {
+    border: 1px solid rgb(39, 7, 69);
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+th, td {
+    width: 10%;
+}
+
+th {
+    background-color: rgb(245, 166, 245);
+}
+
+td {
+    background-color: rgb(231, 214, 223);
+    height: 100px;
+    text-align: center;
+    font-size:larger;
+}
+
+#headerName {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+#prevWeek {
+    float: inline-start;
+    padding: 2%;
+    margin-right: auto;
+    margin-top: 21%;
+    position: inherit;
+}
+
+#nextWeek {
+    float:inline-end;
+    margin-left: auto;
+    padding: 2%;
+    margin-right: auto;
+    margin-top: 16%;
+    position: inherit;
+}
+
+#eventList {
+    width: 80%;
+    height: 100px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: 0 0 5px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#eventListArea {
+    width: 50%;
+    margin-left:10%;
+    margin-right: auto;
+}
